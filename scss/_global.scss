@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    padding-bottom: 80px;
+     font-size: 48px;
+    }
+
+body {
+    max-width: 1440px;
+    height: 100%;
+    background-color: #F9F8F8;
+}
+
+.container {
+    width: 1230px;
+    margin: 0 auto;
+}
+a{
+ text-decoration: none;
+}
+img{
+    max-width: 100%;  
+  max-width: 100%;
+}

@@ -1,0 +1,179 @@
+
+
+
+
+
+
+
+
+
+
+.channel__container{
+position: relative;
+}
+
+
+
+
+.channel__box{
+    padding-top: 100px;
+  max-width: 1440px;
+  height: 310px;
+  background-image: url(/img/background__img.png);
+  background-repeat: no-repeat;
+}
+.channel__title{
+  max-width: 550px;
+font-size: 48px;
+color: #fff;
+margin-left: 21%;
+}
+.channel__creat{
+ max-width: 550px;
+ display: flex;
+ justify-content: space-between;
+ padding-left: 250px;
+}
+
+.channel__creat-acc{
+   padding-left: 22px;
+   padding-right: 147px;
+   padding-top: 18px;
+   padding-bottom: 12px;
+}
+.channel__acc{
+  padding-right: 21px;
+}
+.channel__btn{
+    background-color: #333333;
+    max-width: 350px;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 51px;
+    padding-bottom: 14px;
+    color: #fff;
+    padding-right: 53px;
+    border-radius: 3px;
+    align-items: center;
+}
+.channel__icon{
+position: absolute;
+left: 771px;
+top: -4px;
+}
+@media all and (max-width:992px) {
+    .channel__container{
+      max-width: 990px;
+    }
+   
+    .channel__box{
+     max-width: 992px;
+     margin: 0 auto;
+    }
+    .channel__title{
+    margin-left: 25%;
+    }
+
+    .channel__icon{
+    display: none;
+    }
+}
+@media all and (max-width:770px) {
+    .channel__container{
+      max-width: 770px;
+    }
+   
+    .channel__box{
+     max-width: 770px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+    }
+    .channel__creat{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 50px;
+     
+    }
+ 
+    
+    .channel__title{
+    margin-left: 33%;
+    font-size: 30px;
+    }
+
+    .channel__icon{
+    display: none;
+    }
+
+}
+@media all and (max-width:550px) {
+    .channel__container{
+      max-width: 550px;
+    }
+   
+    .channel__box{
+     max-width: 550px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+    }
+    .channel__creat{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 50px;
+     
+    }
+ 
+    
+    .channel__title{
+    margin-left: 26%;
+    font-size: 30px;
+    }
+
+    .channel__icon{
+    display: none;
+    }
+
+}
+@media all and (max-width:330px) {
+    .channel__container{
+      max-width: 300px;
+    }
+   
+    .channel__box{
+     max-width: 300px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+    }
+    .channel__creat{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 30px;
+      margin: 0 auto;
+     
+    }
+    .channel__creat-acc{
+    padding-right: 50px;
+    }
+    
+    .channel__title{
+    margin-left: 20%;
+    font-size: 20px;
+    }
+
+    .channel__icon{
+    display: none;
+    }
+
+}

@@ -1,0 +1,210 @@
+.sign__inner {
+    display: flex;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+
+.sign__box {
+    width: 1000px;
+    height: 549px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+}
+
+.sign__title {
+    margin-left: 0%;
+    font-size: 48px;
+    color: #fff;
+}
+
+.sign__text {
+    font-size: 16px;
+    color: #949494;
+    max-width: 334px;
+}
+
+.sign__creat-acc {
+    display: flex;
+    height: 513px;
+    flex-direction: column;
+    padding-left: 166px;
+    padding-top: 62px;
+    line-height: 15px;
+    justify-content: space-between;
+}
+
+.sign__block {
+    display: block;
+    line-height: 25px;
+}
+
+.sign__name {
+    max-width: 375px;
+    height: 50px;
+}
+
+.sign__email {
+    max-width: 375px;
+    height: 50px;
+}
+
+textarea {
+    max-width: 375px;
+    height: 165px;
+}
+
+.sign__btn {
+    background-color: #FFBD54;
+    max-width: 240px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-bottom: 14px;
+    color: #fff;
+    padding-right: 40px;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.sign__img {
+    padding-top: 60px;
+}
+
+@media all and (max-width:992px) {
+    .sign__container {
+        max-width: 990px;
+    }
+
+    .sign__inner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sign__maps {
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width:770px) {
+    .sign__container {
+        max-width: 770px;
+    }
+
+    .sign__inner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sign__box {
+        max-width: 760px;
+    }
+
+    .sign__creat-acc {
+        margin-right: 20%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sign__img {
+        display: none;
+    }
+
+    .sign__maps {
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width:550px) {
+    .sign__container {
+        max-width: 550px;
+    }
+
+    .sign__inner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sign__box {
+        max-width: 550px;
+        height: 600px;
+    }
+
+    .sign__creat-acc {
+        margin-right: 30%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sign__img {
+        display: none;
+    }
+
+    .sign__maps {
+        align-items: center;
+    }
+
+}
+
+@media all and (max-width:330px) {
+    .sign__container {
+        max-width: 300px;
+    }
+
+    .sign__inner {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sign__box {
+        max-width: 300px;
+        height: 600px;
+    }
+
+    .sign__creat-acc {
+        margin-right: 50%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sign__img {
+        display: none;
+    }
+
+    .sign__block {
+        display: none;
+    }
+
+    .sign__text {
+        display: none;
+    }
+
+    .sign__maps {
+        align-items: center;
+    }
+
+    .sign__name {
+        width: 200px;
+        height: 50px;
+    }
+
+    .sign__email {
+        width: 200px;
+        height: 50px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 165px;
+    }
+
+    .sign__btn {
+        background-color: #FFBD54;
+        max-width: 240px;
+        height: 60px;
+
+    }
+
+}

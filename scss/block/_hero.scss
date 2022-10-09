@@ -1,0 +1,150 @@
+.hero__container {
+    max-width: 1300px;
+    position: relative;
+}
+
+.hero__item {
+    max-width: 608px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 190px;
+    right: -10%;
+
+}
+
+.hero__title {
+    max-width: 608px;
+    font-size: 70px;
+    color: #333333;
+}
+
+.hero__title-style {
+    font-size: 70px;
+    color: #78C0DE;
+}
+
+.hero__text {
+    max-width: 495px;
+    font-size: 16px;
+    color: #949494;
+}
+
+.hero_main-img {
+    padding-bottom: 150px;
+
+}
+
+.hero__button {
+    @include button
+}
+
+.hero__2main-img {
+    display: none;
+}
+
+.hero__res-doccat {
+    display: none;
+}
+
+@media all and (max-width:992px) {
+    .hero__container {
+        max-width: 990px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero_main-img {
+        display: none;
+    }
+
+
+    .hero__2main-img {
+        padding-top: 150px;
+        display: flex;
+    }
+
+    .hero__res-doccat {
+        display: none;
+    }
+
+}
+
+@media all and (max-width:770px) {
+
+    .hero__container {
+        max-width: 770px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: -150px;
+    }
+
+    .hero_main-img {
+        display: none;
+    }
+
+    .hero__2main-img {
+        display: none;
+    }
+
+    .hero__item {
+        text-align: center;
+        align-items: center;
+        margin-right: 20%;
+    }
+
+    .hero__button {
+        padding-right: 60px;
+        padding-left: 60px;
+        padding-bottom: 16px;
+        padding-top: 15px;
+    }
+
+}
+
+@media all and (max-width:550px) {
+    .hero__container {
+        max-width: 550px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__item {
+        position: absolute;
+        top: 150px;
+        max-width: 430px;
+    }
+
+    .hero__title,
+    .hero__title-style {
+        font-size: 40px;
+        max-width: 400px;
+    }
+
+}
+
+@media all and (max-width:330px) {
+
+    .hero__container {
+        max-width: 329px;
+        display: flex;
+        flex-direction: column;
+         margin: 0 auto;
+    }
+    .hero__item{
+      padding-top: -200px;
+    }
+    .hero__title,
+    .hero__title-style {
+        font-size: 20px;
+        max-width: 200px;
+        text-align: center;   
+    }
+    .hero__text{
+    max-width: 258px;
+    }
+
+}
